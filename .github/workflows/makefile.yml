@@ -18,4 +18,4 @@ jobs:
       run: sudo apt-get -y install gcc make gettext zlib1g-dev libncurses5-dev bison flex bc texinfo tree cmake flex
 
     - name: Make
-      run: source ./env.sh && make hiboot && make build
+      run: source ./env.sh && make hiboot
