@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Run distcheck
-      run: chomd +X ./server_install.sh && ./server_install.sh
+      run: chmod +X ./server_install.sh && ./server_install.sh
 
     - name: Make
       run: make prebuild
